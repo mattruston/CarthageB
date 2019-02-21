@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		19838D90221EFF9200782CC0 /* CarthageTestB.h in Headers */ = {isa = PBXBuildFile; fileRef = 19838D8E221EFF9200782CC0 /* CarthageTestB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19838D97221EFFA000782CC0 /* CarthageB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19838D96221EFFA000782CC0 /* CarthageB.swift */; };
-		19838DDE221F1FCD00782CC0 /* CarthageTestA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19838DB0221F04B900782CC0 /* CarthageTestA.framework */; };
+		19838DE0221F34C500782CC0 /* CarthageTestA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19838DDF221F34C500782CC0 /* CarthageTestA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +18,7 @@
 		19838D8F221EFF9200782CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19838D96221EFFA000782CC0 /* CarthageB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageB.swift; sourceTree = "<group>"; };
 		19838DB0221F04B900782CC0 /* CarthageTestA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarthageTestA.framework; path = Carthage/Build/iOS/CarthageTestA.framework; sourceTree = "<group>"; };
+		19838DDF221F34C500782CC0 /* CarthageTestA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CarthageTestA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19838DDE221F1FCD00782CC0 /* CarthageTestA.framework in Frameworks */,
+				19838DE0221F34C500782CC0 /* CarthageTestA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +63,7 @@
 		19838DAF221F04B900782CC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19838DDF221F34C500782CC0 /* CarthageTestA.framework */,
 				19838DB0221F04B900782CC0 /* CarthageTestA.framework */,
 			);
 			name = Frameworks;
@@ -159,7 +161,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nenv -i PLATFORM_NAME=\"$PLATFORM_NAME\" SRCROOT=\"$SRCROOT\" /usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
