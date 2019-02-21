@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19838D90221EFF9200782CC0 /* CarthageTestB.h in Headers */ = {isa = PBXBuildFile; fileRef = 19838D8E221EFF9200782CC0 /* CarthageTestB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19838D97221EFFA000782CC0 /* CarthageB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19838D96221EFFA000782CC0 /* CarthageB.swift */; };
+		19838DDE221F1FCD00782CC0 /* CarthageTestA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19838DB0221F04B900782CC0 /* CarthageTestA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19838DDE221F1FCD00782CC0 /* CarthageTestA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19838D93221EFF9200782CC0 /* Build configuration list for PBXNativeTarget "CarthageTestB" */;
 			buildPhases = (
+				19838DDD221F0EB200782CC0 /* Build Carthage Dependencies */,
 				19838D86221EFF9200782CC0 /* Headers */,
 				19838D87221EFF9200782CC0 /* Sources */,
 				19838D88221EFF9200782CC0 /* Frameworks */,
@@ -138,6 +141,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19838DDD221F0EB200782CC0 /* Build Carthage Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Carthage Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nenv -i PLATFORM_NAME=\"$PLATFORM_NAME\" SRCROOT=\"$SRCROOT\" /usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19838D87221EFF9200782CC0 /* Sources */ = {

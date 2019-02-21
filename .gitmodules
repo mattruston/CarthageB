@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/CarthageA"]
+	path = Carthage/Checkouts/CarthageA
+	url = https://github.com/mattruston/CarthageA.git
