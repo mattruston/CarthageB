@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		19838D90221EFF9200782CC0 /* CarthageTestB.h in Headers */ = {isa = PBXBuildFile; fileRef = 19838D8E221EFF9200782CC0 /* CarthageTestB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19838D97221EFFA000782CC0 /* CarthageB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19838D96221EFFA000782CC0 /* CarthageB.swift */; };
-		19838DB1221F04B900782CC0 /* CarthageTestA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19838DB0221F04B900782CC0 /* CarthageTestA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19838DB1221F04B900782CC0 /* CarthageTestA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
